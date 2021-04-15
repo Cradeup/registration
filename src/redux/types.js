@@ -1,0 +1,3 @@
+export const REGISTRATION = {
+    DATA_SUBMIT: 'DATA_SUBMIT'
+}
