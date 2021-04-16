@@ -10,13 +10,13 @@ const inputTypes = {
         },
         {
             label: "Фамилия",
-            name: "secondName",
+            name: "lastName",
             type: "input",
             validators: yup.string().required('Это обязательное поле').matches(/^[?!,.а-яА-ЯёЁ0-9\s]+$/, 'Вы русский, с Вами Бог. Пишите по-русски', { excludeEmptyString: true }).min(2, 'Минимальное количество символов - 2')
         },
         {
             label: "Отчество",
-            name: "lastName",
+            name: "middleName",
             type: "input",
             validators: yup.string().matches(/^[?!,.а-яА-ЯёЁ0-9\s]+$/, { excludeEmptyString: true }, 'Вы русский, с Вами Бог. Пишите по-русски')
         },

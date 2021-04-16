@@ -13,7 +13,7 @@ function Logged(props) {
     } else {
         return (
             <div>
-                <div className="registrationFinished">Поздравляем, {props.data.firstName} {props.data.secondName}, вы зарегистрировались! Теперь Вы можете ничего.</div>
+                <div className="registrationFinished">Поздравляем, {props.data.firstName} {props.data.lastName}, вы зарегистрировались! Теперь Вы можете ничего.</div>
             </div>
         )
     }
