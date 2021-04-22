@@ -18,7 +18,7 @@ const inputTypes = {
             label: "Отчество",
             name: "middleName",
             type: "input",
-            validators: yup.string().matches(/^[?!,.а-яА-ЯёЁ0-9\s]+$/, { excludeEmptyString: true }, 'Вы русский, с Вами Бог. Пишите по-русски')
+            validators: yup.string().matches(/^[?!,.а-яА-ЯёЁ0-9\s]+$/, 'Вы русский, с Вами Бог. Пишите по-русски', { excludeEmptyString: true })
         },
         {
             label: "Дата рождения",
